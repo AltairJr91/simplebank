@@ -3,3 +3,13 @@
 -criar verificaçao de segurança "email e cpf" 
 -criar cadastro de nova conta
 -criar classes e prototipos para novas contas sem repetir numeros.
+*/
+class Client{
+    constructor(nome,cpf , email , agencia , conta){
+        this.nome = nome;
+        this.cpf = cpf;
+        this.email = email;
+        this.agencia = agencia;
+        this.conta = conta;
+    }
+}

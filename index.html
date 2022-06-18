@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kdam+Thmor+Pro&family=Montserrat:wght@200&family=Nanum+Gothic&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <title>https://EverGreenBank</title>
 </head>
 <body>
@@ -15,14 +16,34 @@
         <div id="container_navigation">
             <nav class="container__list-navigation">
                 <ul class="container_list-options">
-                    <li class="list__options">Home</li>
+                    <li class="list__options"><a href="/index.html">Home</a></li>
                     <li class="list__options">Abra sua conta</li>
                     <li class="list__options">Atendimento</li>
                     <li class="list__options">Cartão de Credito</li>
                     <li class="list__options">Financiamentos</li>
-                    <li class="list__options">&#128274; Login</li>
+                    <li class="list__options" login-area>&#128274; Login</li>
                 </ul>
             </nav>
+            <img class="image_adjust" src="./image/pine123.png" alt="logo">
+        </div>
+        <form class="Form_for_count_open">
+            <label for="name">Nome</label>
+            <input type="text" name="Nome" id="name">
+            <label for="cpf">CPF</label>
+            <input type="numeric" name="cpf" id="cpf">
+            <label for="email">e-mail</label>
+            <input type="email" name="email" id="email">
+            <input type="submit" value="criar conta">
+        </form>
+        <div class="container__login">
+            <label for="agencia">Agencia</label>
+            <input type="numeric" name="agencia" id="agencia">
+            <label for="conta">Conta</label>
+            <input type="numeric" name="conta" id="conta">
+            <label for="senha">Senha</label>
+            <input type="numeric" name="senha" id="senha">
+            <input type="submit" value="Entrar">
+            
         </div>
     </header>
     <main>
@@ -31,6 +52,6 @@
     <footer>
 
     </footer>
-    <script src=""></script>
+    <script src="/main.js"></script>
 </body>
 </html>

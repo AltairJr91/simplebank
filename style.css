@@ -1,3 +1,48 @@
 body {
     font-family: 'Nanum Gothic', sans-serif;
+    background-color: #fefefe;
+}
+header{
+    background-color: darkseagreen;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#container_navigation{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 15px;
+}
+.image_adjust{
+    width: 12%;
+    background-color: darkseagreen;
+}
+.container__list-navigation{
+    width: 70%;
+}
+.container_list-options{
+    display: flex;
+    justify-content: space-around; 
+}
+.list__options{
+    font-size: 18px;
+    margin: 5px;
+}
+.list__options:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #fefefe;
+}
+.Form_for_count_open{
+   display: none;
+}
+.container__login{
+    display: none;
+}
+.Form_for_count_open_click {
+    margin: 15px;
+}
+.container__login_open_click{
+    margin: 15px;
 }
